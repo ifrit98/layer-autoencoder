@@ -237,12 +237,10 @@ autoencoder_modelV2 <-
         
         x
       }
-      
     })
-    
 }
 
-# Model version of above
+
 autoencoder_model <- 
   function(num_layers = 3,
            hidden_dim = c(512, 256, 64),
